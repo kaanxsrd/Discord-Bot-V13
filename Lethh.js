@@ -9,7 +9,6 @@ const client = (global.bot = new Client({
 
 client.commands = new Collection();
 client.aliases = new Collection();
-client.invites = new Collection();
 client.cooldown = new Map();
 const discordModals = require('discord-modals');
 discordModals(client);
